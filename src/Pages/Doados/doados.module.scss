@@ -21,8 +21,10 @@
     }
 }
 .doados{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    display: grid;
+    gap: 10vh;
+    grid-template-columns: repeat(4, 1fr);
+    place-content: center;
+    margin: auto;
     padding: 50px 0;
 }

@@ -15,6 +15,34 @@ export default function Doados(){
                     </p>
                     <p>Ficção</p>
                 </div>
+                <div>
+                    <img src={exemplo} alt="exemplo" />
+                    <p className={S.book_title}>O protagonista</p>
+                    <p>Susanne Andrade
+                    </p>
+                    <p>Ficção</p>
+                </div>
+                <div>
+                    <img src={exemplo} alt="exemplo" />
+                    <p className={S.book_title}>O protagonista</p>
+                    <p>Susanne Andrade
+                    </p>
+                    <p>Ficção</p>
+                </div>
+                <div>
+                    <img src={exemplo} alt="exemplo" />
+                    <p className={S.book_title}>O protagonista</p>
+                    <p>Susanne Andrade
+                    </p>
+                    <p>Ficção</p>
+                </div>
+                <div>
+                    <img src={exemplo} alt="exemplo" />
+                    <p className={S.book_title}>O protagonista</p>
+                    <p>Susanne Andrade
+                    </p>
+                    <p>Ficção</p>
+                </div>
             </section>
         </section>
         </main>

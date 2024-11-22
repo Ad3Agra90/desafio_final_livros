@@ -14,7 +14,7 @@ export default function header(){
         <img src={logo} alt="book" />
         <h1>Livros Vai na Web</h1>
       </section>
-      <nav className={S.link}>
+      <nav className={S.menu}>
           <ul>
             <li><Link to="/">Início</Link></li>
             <li><Link to="/doados">Livros Doados</Link></li>

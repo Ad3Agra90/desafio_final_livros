@@ -10,7 +10,7 @@ export default function Inicio(){
         <main>
         <section className={S.banner}>
             <img src={banner} alt="Pesso    segurando livros na mão" />
-            <h2>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</h2>
+            <h2 className={S.title_inicio}>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</h2>
         </section>
         <h2 className={S.title_cards}>Por que devo doar?</h2>
             <section className={S.cards}>
