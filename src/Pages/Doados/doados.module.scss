@@ -1,0 +1,28 @@
+.title_doados{
+    color:#000000;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.doados div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 3px #005695;
+    border-radius: 20px;
+    width: 245px;
+    padding: 20px;
+    .book_title {
+        padding-top: 50px;
+    }
+    p{
+        padding-top: 10px;
+    }
+}
+.doados{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}

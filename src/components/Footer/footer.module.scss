@@ -1,0 +1,49 @@
+.container_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005695;
+    height: 15vh;
+    width: 100vw;
+}
+
+.redes_sociais ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30vw;
+    align-items: center;
+    height: 10vh;
+}
+
+.phone_number{
+    text-align: center;
+    color: #FFFFFF;
+    width: 15vw;
+    font-size: 16px;
+}
+
+.direitos_autorais{
+    background-color: #232020;
+    color: #FFFFFF;
+    width: 100vw;
+    height: 11vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 300px) and (max-width: 820px){
+    .redes_sociais ul{
+        width: auto;
+        height: auto; 
+        li{
+            padding: 0 5px;
+        }
+    }
+    .phone_number{
+        padding: 0 10px;
+        width: auto;
+    }
+}

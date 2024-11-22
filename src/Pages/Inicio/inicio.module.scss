@@ -1,0 +1,55 @@
+.banner{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    position: relative;
+    h2{
+        font-family: "Roboto", sans-serif;
+        color: #FFFFFF;
+        position: absolute;
+        width: 30vw;
+        padding-left: 150px;
+        display: flex;
+        font-size: 32px;
+
+    }
+    img{
+        width: 100vw;
+    }
+}
+
+.title_cards {
+    color: #005695;
+    padding-left: 150px;
+    padding: 100px;
+    font-size: 40px;
+}
+
+.cards {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 200px;
+    width: 100vw;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 286px;
+        height: 321px;
+        background: #0157944D;
+        border-radius: 10px;
+        position: relative;
+        padding-bottom: 150px;
+    p{
+        position: absolute;
+        padding: 230px 50px 0 50px;
+    }    
+
+
+
+
+    }   
+}
