@@ -7,7 +7,7 @@ import S from './inicio.module.scss'
 
 export default function Inicio(){
     return(
-        <main>
+        <section>
         <section className={S.banner}>
             <img src={banner} alt="Pesso    segurando livros na mão" />
             <h2 className={S.title_inicio}>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</h2>
@@ -31,6 +31,6 @@ export default function Inicio(){
                     <p>Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado.</p>
                 </div>
             </section>
-        </main>
+        </section>
     )
 }

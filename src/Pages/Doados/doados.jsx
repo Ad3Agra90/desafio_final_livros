@@ -4,7 +4,7 @@ import S from './doados.module.scss'
 
 export default function Doados(){
     return(
-        <main>
+        <section>
         <section>
             <h2 className={S.title_doados}>Livros Doados</h2>
             <section className={S.doados}>
@@ -45,6 +45,6 @@ export default function Doados(){
                 </div>
             </section>
         </section>
-        </main>
+        </section>
     )
 }
