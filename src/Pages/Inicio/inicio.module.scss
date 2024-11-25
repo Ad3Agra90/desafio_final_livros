@@ -1,19 +1,17 @@
 .banner{
+    background-image: url('../../assets/img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:88vh;
     display: flex;
     align-items: center;
-    position: relative;
     .title_inicio{
         font-family: "Roboto", sans-serif;
         color: #FFFFFF;
-        position: absolute;
-        width: 35vw;
-        padding-left: 11vw;
-        display: flex;
         font-size: 2.34vw;
-
-    }
-    img{
-        width: 100vw;
+        padding-left: 150px ;
+        width: 35vw;
     }
 }
 
@@ -29,8 +27,7 @@
     justify-content: space-around;
     align-items: center;
     padding-bottom: 200px;
-    width: 100vw;
-    div{
+    article{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -52,14 +49,8 @@
 @media (min-width: 300px) and (max-width: 900px){
     .cards{
         flex-direction: column;
-        div{
+        article{
             margin: 2vh 0;
-        }
-    }
-    .banner{
-        .title_inicio{
-            font-size: 4vw;
-            width: 55vw
         }
     }
     .title_cards{
