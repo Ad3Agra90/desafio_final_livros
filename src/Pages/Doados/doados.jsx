@@ -5,9 +5,9 @@ import S from './doados.module.scss'
 export default function Doados(){
     return(
         <section>
-        <section>
+        <section className={S.doados}>
             <h2 className={S.title_doados}>Livros Doados</h2>
-            <section className={S.doados}>
+            <section className={S.grid_doados}>
                 <div>
                     <img src={exemplo} alt="exemplo" />
                     <p className={S.book_title}>O protagonista</p>

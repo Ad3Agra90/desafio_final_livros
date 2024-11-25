@@ -8,6 +8,7 @@
         margin-top: 5vh;
         font-size: 24px;
         font-weight: normal;
+        text-align: center;
     }
 }
 .title_campos{
@@ -21,6 +22,7 @@
         color:#005695;
         font-size: 24px;
         font-weight: normal;
+        text-align: center;
     }
 }
 .campos{
@@ -55,4 +57,19 @@ button{
     color: #FFFFFF;
     border:none;
     font-weight: normal;
+}
+
+@media (min-width: 300px) and (max-width: 900px){
+    .campos{
+        width: 90%;
+    }
+    .title_campos{
+        width: auto;
+    }
+    .input_doar input{
+        width: 80vw;
+    }
+    button{
+        width: 80vw;
+    }
 }
