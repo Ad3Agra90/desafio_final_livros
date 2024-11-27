@@ -57,4 +57,17 @@
         font-size: 7vw;
         text-align: center;
     }
+    .banner{
+        height:352px;
+        justify-content: center;
+        .title_inicio{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 28px;
+            width: 285px;
+            padding-left: 0;
+        }
+    }
 }
