@@ -50,8 +50,12 @@
 
     }
 }
-
-button{
+.input_doar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .doar{
     margin: 10vh 0 10vh 0;
     height: 8vh;
     width: 14vw;
@@ -61,6 +65,7 @@ button{
     color: #FFFFFF;
     border:none;
     font-weight: normal;
+    }
 }
 
 @media (min-width: 300px) and (max-width: 900px){
@@ -73,7 +78,7 @@ button{
     .input_doar input{
         width: 80vw;
     }
-    button{
-        width: 80vw;
+    .input_doar .doar{
+        width: 50vw;
     }
 }
