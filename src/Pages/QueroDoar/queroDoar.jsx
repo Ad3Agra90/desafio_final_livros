@@ -11,12 +11,12 @@ export default function QueroDoar(){
                     <h2 className={S.title}>Informações do Livro
                     </h2>
                 </div>
-                <section className={S.input_doar}>
+                <form className={S.input_doar}>
                     <input type="text"  placeholder="Titulo" />
                     <input type="text"  placeholder="Categoria"/>
                     <input type="text"  placeholder="Autor"/>
                     <input type="url"   placeholder="Link da Imagem"/>
-                </section>
+                </form>
                 <button>Doar</button>
             </section>
         </section>
