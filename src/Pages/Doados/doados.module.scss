@@ -4,7 +4,7 @@
     padding-top: 50px;
 }
 
-.grid_doados div{
+.grid_doados article{
     display: flex;
     margin: auto;
     align-items: center;
@@ -34,6 +34,7 @@
     align-items: center;
     flex-direction: column;
     width: auto;
+    min-height: 40vh;
 }
 
 @media (min-width: 300px) and (max-width: 900px){

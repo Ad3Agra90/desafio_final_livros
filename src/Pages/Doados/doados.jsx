@@ -8,41 +8,41 @@ export default function Doados(){
         <section className={S.doados}>
             <h2 className={S.title_doados}>Livros Doados</h2>
             <section className={S.grid_doados}>
-                <div>
+                <article>
                     <img src={exemplo} alt="exemplo" />
-                    <p className={S.book_title}>O protagonista</p>
+                    <h3 className={S.book_title}>O protagonista</h3>
                     <p>Susanne Andrade
                     </p>
                     <p>Ficção</p>
-                </div>
-                <div>
+                </article>
+                <article>
                     <img src={exemplo} alt="exemplo" />
-                    <p className={S.book_title}>O protagonista</p>
+                    <h3 className={S.book_title}>O protagonista</h3>
                     <p>Susanne Andrade
                     </p>
                     <p>Ficção</p>
-                </div>
-                <div>
+                </article>
+                <article>
                     <img src={exemplo} alt="exemplo" />
-                    <p className={S.book_title}>O protagonista</p>
+                    <h3 className={S.book_title}>O protagonista</h3>
                     <p>Susanne Andrade
                     </p>
                     <p>Ficção</p>
-                </div>
-                <div>
+                </article>
+                <article>
                     <img src={exemplo} alt="exemplo" />
-                    <p className={S.book_title}>O protagonista</p>
+                    <h3 className={S.book_title}>O protagonista</h3>
                     <p>Susanne Andrade
                     </p>
                     <p>Ficção</p>
-                </div>
-                <div>
+                </article>
+                <article>
                     <img src={exemplo} alt="exemplo" />
-                    <p className={S.book_title}>O protagonista</p>
+                    <h3 className={S.book_title}>O protagonista</h3>
                     <p>Susanne Andrade
                     </p>
                     <p>Ficção</p>
-                </div>
+                </article>
             </section>
         </section>
         </section>
