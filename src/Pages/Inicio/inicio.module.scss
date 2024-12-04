@@ -46,15 +46,16 @@
     }   
 }
 
-@media (min-width: 300px) and (max-width: 1060px){
+@media (min-width: 300px) and (max-width: 1200px){
     .cards{
-        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 15px;
         article{
             margin: 2vh 0;
         }
     }
     .title_cards{
-        font-size: 7vw;
+        font-size: 5vw;
         text-align: center;
     }
     .banner{
