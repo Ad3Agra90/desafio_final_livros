@@ -13,11 +13,16 @@
     border: solid 3px #005695;
     border-radius: 20px;
     padding: 50px;
+    width: 80%;
+    height: 100%;
     .book_title {
         padding-top: 50px;
     }
     p{
         padding-top: 10px;
+    }
+    img{width: 70%;
+        height: 40%;
     }
 }
 .grid_doados{
